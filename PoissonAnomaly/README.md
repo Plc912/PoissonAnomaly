@@ -4,7 +4,7 @@
 
 邮箱：3522236586@qq.com
 
-GitHub:
+GitHub:https://github.com/Plc912/PoissonAnomaly.git
 
 基于泊松分布的时间序列异常检测工具，专门针对**计数型时序数据**（方差≈均值）进行异常检测，如故障次数、事件发生次数等。本工具封装为MCP（Model Context Protocol）服务器，可与支持MCP的AI助手集成使用。
 
@@ -507,3 +507,4 @@ poisson_train(csv="complaints.csv", value_column="complaint_count",
 - **pandas**: 数据处理
 - **scipy**: 泊松分布拟合和统计计算
 - **fastmcp**: MCP服务器框架
+
